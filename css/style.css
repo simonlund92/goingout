@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+header{
+	margin: auto;
+}
+
+main {
+	margin: auto;
+}
+
+footer {
+	position:absolute;
+	bottom: 0;
+	width: 99%;
+	text-align: center;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+iframe {
+	pointer-events: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #8B0000;
+    font-family: courier new; 
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.logout {
+	display:inline-block;
+}
